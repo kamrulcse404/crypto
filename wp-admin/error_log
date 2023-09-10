@@ -1,0 +1,82 @@
+[01-Sep-2023 03:37:46 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[01-Sep-2023 16:25:08 UTC] WordPress database error DROP command denied to user 'crypbxjb_cryptocredit'@'localhost' for table `crypbxjb_cryptocredit`.`wp_litespeed_url` for query DROP TABLE IF EXISTS wp_litespeed_url made by do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, do_action('uninstall_litespeed-cache/litespeed-cache.php'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Activation::uninstall_litespeed_cache, LiteSpeed\Data->tables_del, LiteSpeed\Data->tb_del
+[01-Sep-2023 16:25:08 UTC] WordPress database error DROP command denied to user 'crypbxjb_cryptocredit'@'localhost' for table `crypbxjb_cryptocredit`.`wp_litespeed_url_file` for query DROP TABLE IF EXISTS wp_litespeed_url_file made by do_action('wp_ajax_delete-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, wp_ajax_delete_plugin, delete_plugins, uninstall_plugin, do_action('uninstall_litespeed-cache/litespeed-cache.php'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Activation::uninstall_litespeed_cache, LiteSpeed\Data->tables_del, LiteSpeed\Data->tb_del
+[01-Sep-2023 23:28:40 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[01-Sep-2023 23:28:42 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[01-Sep-2023 23:31:20 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[02-Sep-2023 01:20:50 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[03-Sep-2023 03:58:07 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[03-Sep-2023 04:04:01 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[03-Sep-2023 04:04:46 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[03-Sep-2023 04:05:25 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php:232
+Stack trace:
+#0 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(310): make_payment()
+#1 /home/crypbxjb/public_html/customer-account/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/crypbxjb/public_html/customer-account/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/crypbxjb/public_html/customer-account/wp-admin/admin-ajax.php(188): do_action()
+#4 {main}
+  thrown in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 232
+[04-Sep-2023 07:59:27 UTC] WordPress database error Unknown column 'payment_card_no' in 'field list' for query UPDATE `wp_custom_registration` SET `payment_card_name` = '', `payment_card_value` = 'tok_visa_debit', `payment_card_no` = '', `payment_card_expiry` = '', `payment_card_cvc` = '' WHERE `user_name` = 'Ty' made by do_action('wp_ajax_add_stripe'), WP_Hook->do_action, WP_Hook->apply_filters, add_stripe
+[05-Sep-2023 14:30:32 UTC] WordPress database error Unknown column 'payment_card_no' in 'field list' for query UPDATE `wp_custom_registration` SET `payment_card_name` = 'Joy', `payment_card_value` = 'tok_visa_debit', `payment_card_no` = '4242-4242-4242-4242', `payment_card_expiry` = '2025-01-13', `payment_card_cvc` = '235' WHERE `user_name` = 'Test-user' made by do_action('wp_ajax_add_stripe'), WP_Hook->do_action, WP_Hook->apply_filters, add_stripe
+[05-Sep-2023 14:32:13 UTC] WordPress database error Unknown column 'payment_card_no' in 'field list' for query UPDATE `wp_custom_registration` SET `payment_card_name` = 'Joy', `payment_card_value` = 'tok_visa_debit', `payment_card_no` = '4242424242424242', `payment_card_expiry` = '2025-07-06', `payment_card_cvc` = '123' WHERE `user_name` = 'Test-user' made by do_action('wp_ajax_add_stripe'), WP_Hook->do_action, WP_Hook->apply_filters, add_stripe
+[05-Sep-2023 14:33:39 UTC] WordPress database error Unknown column 'payment_card_no' in 'field list' for query UPDATE `wp_custom_registration` SET `payment_card_name` = 'Joy', `payment_card_value` = 'tok_visa_debit', `payment_card_no` = '4242-4242-4242-4242', `payment_card_expiry` = '2025-06-07', `payment_card_cvc` = '234' WHERE `user_name` = 'Test-user' made by do_action('wp_ajax_add_stripe'), WP_Hook->do_action, WP_Hook->apply_filters, add_stripe
+[06-Sep-2023 04:33:46 UTC] PHP Warning:  Undefined array key 0 in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 643
+[06-Sep-2023 04:33:46 UTC] PHP Warning:  Attempt to read property "user_name" on null in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 643
+[06-Sep-2023 04:33:54 UTC] PHP Warning:  Undefined array key 0 in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 643
+[06-Sep-2023 04:33:54 UTC] PHP Warning:  Attempt to read property "user_name" on null in /home/crypbxjb/public_html/customer-account/wp-content/themes/cryptocredit/inc/ajax/ajax-data-processing.php on line 643

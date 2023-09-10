@@ -1,0 +1,29 @@
+# Ignore wp-config.php
+
+
+wp-config.php
+
+# Ignore images and files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.zip
+
+# Ignore the wp-content folder
+wp-content/
+
+# Ignore specific subfolders within wp-content
+wp-content/uploads/
+
+# Ignore miscellaneous system files
+.DS_Store
+Thumbs.db
+desktop.ini
