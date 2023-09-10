@@ -108,6 +108,8 @@ jQuery(document).ready(function () {
   // chhose membership
   jQuery(".choose_membership").click(function (event) {
     event.preventDefault();
+
+    alert("kamrul 123");
     jQuery(".custom-form").addClass("processing-loader");
     var ajax_url = jQuery(this).attr("ajax_url");
     //  alert(ajax_url) ;
@@ -134,8 +136,8 @@ jQuery(document).ready(function () {
         alert("membership added successfully");
 
         jQuery("#login_error").html(res.data);
-        // alert(res.data) ;
-        location.reload();
+        alert(res.data) ;
+        // location.reload();
       },
 
       error: function (err) {},

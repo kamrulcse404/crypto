@@ -372,6 +372,10 @@ function make_payment()
 
         try {
 
+            global $cryptocredit;
+            $success_url = $cryptocredit['link-success-url'];
+            $cancel_url = $cryptocredit['link-cancel-url'];
+
 
             $checkout_session = \Stripe\Checkout\Session::create([
                 'line_items' => [[
@@ -380,8 +384,10 @@ function make_payment()
                     'quantity' => 1,
                 ]],
                 'mode' => 'payment',
-                'success_url' => $YOUR_DOMAIN . '/success.html',
-                'cancel_url' => $YOUR_DOMAIN . '/cancel.html',
+                // 'success_url' => $YOUR_DOMAIN . '/success.html',
+                'success_url' => $success_url,
+                // 'cancel_url' => $YOUR_DOMAIN . '/cancel.html',
+                'cancel_url' => $cancel_url,
             ]);
 
             $urls = $checkout_session->url;
@@ -404,22 +410,8 @@ function make_payment()
         // header("Location: " . $checkout_session->url);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    } elseif ($payment_from == 'products') {
+    } 
+    elseif ($payment_from == 'products') {
 
         // print_r('products') ; 
 
@@ -479,16 +471,6 @@ function make_payment()
         // exit;
 
 
-
-
-
-
-
-
-
-
-
-
         require_once('vendor/autoload.php'); // Include the Stripe PHP library        
         \Stripe\Stripe::setApiKey($secret_api_key); // Set your secret API key
 
@@ -523,13 +505,19 @@ function make_payment()
                 }
 
                 try {
+
+                    global $cryptocredit;
+                    $success_url = $cryptocredit['link-success-url'];
+                    $cancel_url = $cryptocredit['link-cancel-url'];
                     // Create the Checkout Session with the calculated total amount
 
                     $checkout_session = \Stripe\Checkout\Session::create([
                         'line_items' => $line_items,
                         'mode' => 'payment', // Set the mode to 'payment'
-                        'success_url' => $YOUR_DOMAIN . '/success.html',
-                        'cancel_url' => $YOUR_DOMAIN . '/cancel.html',
+                        // 'success_url' => $YOUR_DOMAIN . '/success.html',
+                        'success_url' => $success_url,
+                        // 'cancel_url' => $YOUR_DOMAIN . '/cancel.html',
+                        'cancel_url' => $cancel_url,
                     ]);
 
                     // ...
@@ -577,7 +565,8 @@ function make_payment()
             // Log the error for debugging
             error_log($e->getMessage());
         }
-    } elseif ($payment_from == 'products_membership') {
+    } 
+    elseif ($payment_from == 'products_membership') {
 
 
 
@@ -682,11 +671,17 @@ function make_payment()
                 try {
                     // Create the Checkout Session with the calculated total amount
 
+                    global $cryptocredit;
+                    $success_url = $cryptocredit['link-success-url'];
+                    $cancel_url = $cryptocredit['link-cancel-url'];
+
                     $checkout_session = \Stripe\Checkout\Session::create([
                         'line_items' => $line_items,
                         'mode' => 'payment', // Set the mode to 'payment'
-                        'success_url' => $YOUR_DOMAIN . '/success.html',
-                        'cancel_url' => $YOUR_DOMAIN . '/cancel.html',
+                        // 'success_url' => $YOUR_DOMAIN . '/success.html',
+                        'success_url' => $success_url,
+                        // 'cancel_url' => $YOUR_DOMAIN . '/cancel.html',
+                        'cancel_url' => $cancel_url,
                     ]);
 
                     // ...
