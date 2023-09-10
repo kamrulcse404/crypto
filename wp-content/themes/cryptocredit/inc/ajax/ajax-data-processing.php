@@ -310,6 +310,9 @@ function make_payment()
 
         $product_membership_price_id =  get_post_meta($membership_id, 'membership-api-price-id', true);
 
+        // print_r( $product_membership_price_id);
+        // exit;
+
 
         global $wpdb;
         $username = $user_name;
@@ -337,8 +340,12 @@ function make_payment()
             'payment_date' => $payment_date,
             'next_payment_date' => $next_payment_date,
             'payment_product_id' => $membership_id,
-            'payment_system' => $payment_type,
+            'payment_system' => $payment_type,  
         );
+
+        // print_r($data);
+        // exit;
+
         // Insert data into the database
         $wpdb->insert($table_name, $data);
 
